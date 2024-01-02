@@ -51,3 +51,16 @@ const clearanceSlider = new Swiper(".swiper.clearance", {
     prevEl: ".swiper-btn-prev.clearance"
   }
 });
+
+const categorySlider = new Swiper(".swiper.category", {
+  // Optional parameters
+  loop: true,
+  slidesPerView: "auto",
+  spaceBetween: 16,
+  
+  //Navigation arrows
+  navigation: {
+    nextEl: ".swiper-btn-next.category",
+    prevEl: ".swiper-btn-prev.category"
+  }
+});
