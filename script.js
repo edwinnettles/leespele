@@ -55,8 +55,8 @@ const clearanceSlider = new Swiper(".swiper.clearance", {
 const categorySlider = new Swiper(".swiper.category", {
   // Optional parameters
   loop: true,
-  slidesPerView: "auto",
-  spaceBetween: 16,
+  slidesPerView: "3",
+  spaceBetween: 32,
   
   //Navigation arrows
   navigation: {
