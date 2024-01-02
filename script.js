@@ -12,3 +12,16 @@ const bestsellersSlider = new Swiper(".swiper.best-sellers", {
     prevEl: ".best-sellers-btn-prev"
   }
 });
+
+const newinSlider = new Swiper(".swiper.newin", {
+  // Optional parameters
+  loop: true,
+  slidesPerView: "auto",
+  spaceBetween: 16,
+  
+  //Navigation arrows
+  navigation: {
+  	nextEl: ".swiper-btn-next.newin",
+    prevEl: ".swiper-btn-prev.newin"
+  }
+});
