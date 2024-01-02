@@ -26,7 +26,7 @@ const newinSlider = new Swiper(".swiper.newin", {
   }
 });
 
-const leesfavsSlider = new Swiper(".swiper.leesfavs", {
+const leesfavsSlider = new Swiper(".swiper.lees-favs", {
   // Optional parameters
   loop: true,
   slidesPerView: "auto",
@@ -34,8 +34,8 @@ const leesfavsSlider = new Swiper(".swiper.leesfavs", {
   
   //Navigation arrows
   navigation: {
-  	nextEl: ".swiper-btn-next.leesfavs",
-    prevEl: ".swiper-btn-prev.leesfavs"
+  	nextEl: ".swiper-btn-next.lees-favs",
+    prevEl: ".swiper-btn-prev.lees-favs"
   }
 });
 
