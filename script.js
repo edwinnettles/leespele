@@ -1,4 +1,4 @@
-alert("this is a git test");
+//alert("this is a git test");
 
 const bestsellersSlider = new Swiper(".swiper.best-sellers", {
   // Optional parameters
