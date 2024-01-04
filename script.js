@@ -64,3 +64,16 @@ const categorySlider = new Swiper(".swiper.category", {
     prevEl: ".swiper-btn-prev.category"
   }
 });
+
+const prodimgSlider = new Swiper(".swiper.add-prod-imgs", {
+  // Optional parameters
+  loop: true,
+  slidesPerView: "auto",
+  spaceBetween: 16,
+  
+  //Navigation arrows
+  navigation: {
+    nextEl: ".swiper-btn-next.add-prod-imgs",
+    prevEl: ".swiper-btn-prev.add-prod-imgs"
+  }
+});
