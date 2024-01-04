@@ -70,6 +70,15 @@ const prodimgSlider = new Swiper(".swiper.add-prod-imgs", {
   loop: true,
   slidesPerView: "3",
   spaceBetween: 16,
+
+  //Responsive Breakpoints
+  breakpoints: {
+    // when window width is >= 360px
+    360: {
+      slidesPerView: 1,
+      spaceBetween: 16,
+    }
+  }
   
   //Navigation arrows
   navigation: {
