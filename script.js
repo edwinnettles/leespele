@@ -68,7 +68,7 @@ const categorySlider = new Swiper(".swiper.category", {
 const prodimgSlider = new Swiper(".swiper.add-prod-imgs", {
   // Optional parameters
   loop: true,
-  slidesPerView: "auto",
+  slidesPerView: "3",
   spaceBetween: 16,
   
   //Navigation arrows
